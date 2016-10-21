@@ -5,6 +5,7 @@
 		<title>Lista</title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
@@ -24,25 +25,9 @@
 	 					<button class="btn-info" id="boton" onclick="tarea()"> <span class="glyphicon glyphicon-plus">agregar</span></button>
 					</div>
 	 		</section>
-    <section>
-       <li id="check"></li>
-      </section>
 	 	</div>
+   <script type='text/javascript' src='js/main.js'></script>
 	</body>
- <script>
-    function tarea() {
-    /*var parrafo=document.createElement("input");
-     parrafo.type="checkbox";
-     var mensaje2= document.getElementById("check").appendChild(parrafo);
-     mensaje2.appendChild(document.createTextNode('test'));*/
-     var check = document.createElement('input');
-     check.setAttribute('type', 'checkbox');
-    var contenido = document.createElement('li');
-    contenido.appendChild(check);
-   contenido.appendChild(document.createTextNode('comida'));
-    document.body.appendChild(contenido);
-}
- </script>
 </html>
 
 
