@@ -1,0 +1,53 @@
+body{
+	background-color:#8A2BE2;
+}
+
+#input{
+	margin:2%;
+	background-color:#E2E4E6;
+	width:200px;
+	height:34px;
+	border-style:none;
+	border-radius:3%;
+	padding-left:5%;
+	border-color:black;
+	margin-left:10%;
+
+}
+
+a{
+	text-decoration:none;
+	color:grey;
+	font-size:16px;
+	display:block;
+	margin-top:1%;
+
+}
+
+a:hover{
+	text-decoration:none;
+	
+}
+h4{
+	margin:5% 0% 0% 5%;
+}
+
+#btn{
+	width:90px;
+	height:30px;
+    border-style:none;
+    display:block;
+    margin-left:65px;
+    margin-top:4px;
+    border-radius:5%;
+    color:white;
+    background-color:#61BD4F;
+}
+
+#tarjeta{
+	width:250px;
+	height:80px;
+	border-radius:2%;
+}
+
+
