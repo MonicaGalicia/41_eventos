@@ -1,7 +1,18 @@
 body{
 	background-color:#8A2BE2;
 }
+#div{
+	width:250px;
+	height:110px;
+	background-color:#E2E4E6;
+	margin-top:5%;
+	margin-left:1%;
+	border-radius:2%;
+}
 
+h5{
+	text-align:center;
+}
 #input{
 	margin:2%;
 	background-color:#E2E4E6;
@@ -14,13 +25,23 @@ body{
 	margin-left:10%;
 
 }
+#btnGreen{
+	background-color:green;
+	width:50px;
+}
+#area{
+	display:block;
+	margin:auto;
+	width:200px;
+	height:60px;
+}
 
 a{
 	text-decoration:none;
 	color:grey;
 	font-size:16px;
 	display:block;
-	margin-top:1%;
+	margin-top:50px;
 
 }
 
